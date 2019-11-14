@@ -1,0 +1,76 @@
+.body{
+    font-family: 'Playfair Display', serif;;
+    min-height:100%;
+    max-width: 100rem;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+}
+.home{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-height: 100%;
+    overflow: hidden;
+}
+.page-footer
+{
+    background-color: $gold;
+    color: $white;
+    width: 100%;
+    margin-top:auto; 
+}
+.page-footer
+    a{
+        color:$white;
+    }
+.btn-color{
+    background-color: $gold;
+    outline-color: $gold;
+    color: $white;
+}
+input {
+    margin-bottom: 10px;
+}
+.navbar {
+    padding: 0;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.nav-link{
+    color: $gold;
+}
+.page-link{
+    color:$gold
+}
+.text{
+
+}
+
+@media screen and (max-width: 1024) {
+    .container{
+        overflow: visible;
+    }
+    .home{
+        display: flex;
+    }
+    .homeimage {
+        height: 20rem;
+        float: left;
+        position: relative;
+    }
+    .text{
+        outline-color: white;
+        position: absolute; /* To place the text on the image*/
+        top: 25rem; /* The exact location of the text from the top of the image*/
+        left: 10rem;
+    }
+
+  }
