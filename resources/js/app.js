@@ -23,7 +23,7 @@ Vue.component('recipes', require('./components/Recipes.vue').default);
 
 Vue.component('viewrecipe', require('./components/ViewRecipe.vue').default);
 Vue.component('ingredients', require('./components/Ingredients.vue').default);
-Vue.component('suggestions', require('./components/Suggestions.vue').default);
+Vue.component('home', require('./components/Home.vue').default);
 Vue.component('ingredientdetail', require('./components/IngredientDetail.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to

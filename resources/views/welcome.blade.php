@@ -4,8 +4,8 @@
 @section('content') 
 
 <div class='app'>
-<suggestions>
-</suggestions>
+<home>
+</home>
 </div>
 
 
